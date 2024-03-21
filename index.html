@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Визитная карта</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <div class="info">
+                <div class="count">
+                    <p>Возраст</p>
+                </div>
+                <p>24 года</p>
+            </div>
+            <div class="profile">
+                <img src="assets/Кирилл.png">
+            </div>
+            <div class="info">
+                <div class="count">
+                    <p>Город</p>
+                </div>
+                <p>Санкт-Петербург</p>
+            </div>
+        </header>
+
+        <div class="about">
+            <h2>Забродин Кирилл <i class="ri-verified-badge-fill"></i></h2>
+            <p>Frontend developer</p>
+        </div>
+
+        <div class="social-links">
+            <a href="#"><i class="ri-youtube-line"></i></a>
+            <a href="#"><i class="ri-linkedin-box-line"></i></a>
+            <a href="#"><i class="ri-github-line"></i></a>
+            <a href="#"><i class="ri-twitter-x-line"></i></a>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+            <a href="#"><i class="ri-link"></i></a>
+        </div>
+
+        <div class="tabs-container">
+            <ul class="tabs">
+                <li>
+                    <a href="#about" id="tab-1">Обо мне</a>
+                </li>
+                <li class="active">
+                    <a href="#hire" id="tab-2">Hire Me</a>
+                </li>
+                <li>
+                    <a href="#comments" id="tab-3">Comments</a>
+                </li>
+                <li id="active-tab"></li>
+            </ul>
+        </div>
+
+        <div class="tab-content active-tab-content" id="tab-1">
+            <p>В прошлом проводник пассажирских вагонов, электромонтёр,инструктор батутного центра,электромеханик, в настоящем Frontend developer</p>
+            <br>
+            <h3>Помогу вам если🤔</h3>
+            <div class="vote">
+                <a href="#">Нужен классный сайт</a>
+                <a href="#">Изменить уже существующий сайт</a>
+                <a href="#">Или сделать такую же визитку</a>
+            </div>
+        </div>
+
+        <div class="tab-content" id="tab-2">
+            <p>
+                Ознакомьтесь с новейшими технологиями и инструментами веб-разработки 👨‍💻
+            </p>
+            <div class="vote">
+                <a href="#">Frontend Essentials: Html & CSS</a>
+                <a href="#">Mastering JavaScript</a>
+                <a href="#">Building Dynamic UIs with React.JS</a>
+                <a href="#">Powering Your Backend With Next.JS</a>
+            </div>
+        </div>
+
+        <div class="tab-content" id="tab-3">
+            <p>
+                Коментарии моих клиентов 👨‍🎓
+            </p>
+            <div class="comments">
+                <div class="comment">
+                    <img src="assets/Татьяна.png">
+                    <div>
+                        <h4>Татьяна</h4>
+                        <p>
+                            Спасибо большое за великолепный сайт для моей кондитерской.
+                        </p>
+                    </div>
+                </div>
+                <div class="comment">
+                    <img src="assets/Андрей.png">
+                    <div>
+                        <h4>Андрей</h4>
+                        <p>
+                            Мой бизнес по продаже японских автомобилей давно нуждался в стильном сайте, спасибо за качественный сайт.
+                        </p>
+                    </div>
+                </div>
+                <div class="comment">
+                    <img src="assets/Сергей.png">
+                    <div>
+                        <h4>Сергей</h4>
+                        <p>
+                            Мой компьютерный клуб совсем перестал приносить прибыль, пока я не обратился к Кириллу с прозьбой сделать привлекательный сайт. Выручка стала в двое больше, спасибо большое.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button>Hire Me</button>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
